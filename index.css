@@ -1,23 +1,29 @@
 *{
     margin:0px;
     padding:0px;
+    margin-right: 5px;
 }
+
+
 body {
     background-color: white;
+
 }
 
 #container_top {
-   margin-top: 15px;
+  
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 #topleft {
     display: flex;
+
     width: 50%;
     height: 100%;
  
@@ -28,7 +34,7 @@ body {
 }
 
 #topleft ul li, #topright ul li{
-    padding: 15px;
+    padding: 12px;
 }
 
 #topright {
@@ -46,11 +52,27 @@ ul {
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+    font-size: small;
+    color: rgb(43, 42, 42);
+    font-family: Arial, sans-serif;
+}
 
+#apps{
+   
+   margin-top: 8px;
+}
 
-
-
-
+.button{
+    background-color: #4285f4;
+    font-size: 14px;
+    font-weight:700;
+    color: white;
+    width: 75px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -70,21 +92,48 @@ ul {
 }
 
 #search{
+
     display:flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 15px;
+    
 }
 
-#buttons{
+.searchinput{
+    border-style: solid;
+    border-radius: 25px;
+    width: 545px;
+    height: 41px;
+    padding-left: 40px;
+   
+    
+}
+
+.magnify {
+    position: absolute;
+    margin-left: -545px;    
+}
+.mic{
+    position: absolute;
+    margin-left: 535px;  
+}
+
+.search_buttons{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-
 }
-
+.submit{
+    background-color: rgb(238, 237, 237);
+    border-style: none;
+    height: 36px;
+    width: 140px;
+    color: rgb(43, 42, 42);
+    border-radius: 3px;
+    
+}
 
 
 
@@ -99,7 +148,7 @@ ul {
 
      position:fixed;
      bottom:0;
-     background-color: rgb(224, 224, 224);
+     background-color: rgb(238, 237, 237);
      
      
  
